@@ -16,12 +16,7 @@ Inventory:
 1 dagger
 Total number of items: 62
 '''
-'''
-print("inventory: \n")
-print(d.items())
-total = sum(d.values())
-print("total number of items", total)
-'''
+
 d = {'rope': 1, 'torch' : 6,'gold coin' : 42,'dagger' :1,'arrow' : 12}
 def displayinventory():
     print("inventory: \n")
