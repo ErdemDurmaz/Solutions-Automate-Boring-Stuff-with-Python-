@@ -16,7 +16,6 @@ def collatz(number):
             print(" Collatz sequence is initiated")
             quit()
         
-
 while True:
     try:
         usrinp = int(input("Enter the number: "))
